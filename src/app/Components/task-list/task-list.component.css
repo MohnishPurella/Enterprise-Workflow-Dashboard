@@ -1,0 +1,4 @@
+/* Brighten the striped rows */
+::ng-deep .p-datatable-striped .p-datatable-tbody > tr:nth-child(even) {
+    background-color: #e2e5e9 !important; /* Brighter grey */
+}
