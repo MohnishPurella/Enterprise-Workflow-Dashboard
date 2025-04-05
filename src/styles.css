@@ -31,3 +31,14 @@
   padding: 0.5rem; /* Optional: adds some padding inside cells */
 }
 
+.color-danger{
+    color: #ff7373 !important;
+}
+
+.color-success{
+    color: #59bd7a !important;
+}
+
+.color-warning{
+    color: #ffad33 !important;
+}

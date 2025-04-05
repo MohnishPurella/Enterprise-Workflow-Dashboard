@@ -11,11 +11,11 @@ export class TaskPriorityPipe implements PipeTransform {
 
     switch (value.toLowerCase()) {
       case 'high':
-        return '🔴 High';
+        return 'High';
       case 'medium':
-        return '🟠 Medium';
+        return 'Medium';
       case 'low':
-        return '🟢 Low';
+        return 'Low';
       default:
         return value; // Fallback
     }

@@ -17,13 +17,13 @@ export class TaskStatusDirective {
 
     switch (this.status.toLowerCase()) {
       case 'completed':
-        color = 'green';
+        color = '#59bd7a';
         break;
       case 'pending':
-        color = 'orange';
+        color = '#ffad33';
         break;
       case 'in progress':
-        color = 'blue';
+        color = '#3385ff';
         break;
       default:
         color = 'black';
