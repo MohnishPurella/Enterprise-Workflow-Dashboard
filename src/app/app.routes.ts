@@ -3,6 +3,6 @@ import { TaskListComponent } from './Components/Task/task-list/task-list.compone
 import { TaskDetailsComponent } from './Components/Task/task-details/task-details.component';
 
 export const routes: Routes = [
-    { path:'task', component:TaskListComponent },
+    { path:'tasks', component:TaskListComponent },
     { path: 'tasks/details', component: TaskDetailsComponent },
 ];
