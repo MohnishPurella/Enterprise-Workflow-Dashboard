@@ -40,6 +40,6 @@ export class TaskListComponent implements OnInit{
   }
 
   showDetails(rowTaskData: Task){
-    this.router.navigate(['/tasks/details']);
+    this.router.navigate(['/tasks/details', rowTaskData?.id]);
   }
 }

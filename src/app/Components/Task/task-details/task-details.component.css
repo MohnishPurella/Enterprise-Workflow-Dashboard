@@ -1,0 +1,7 @@
+.label-width {
+    display: inline-block;
+    width: 90px; /* Adjust width as needed for alignment */
+    text-align: right;
+    margin-right: 8px;
+}
+  

@@ -1,44 +1,121 @@
-/* You can add global styles to this file, and also import other style files */
-.page-container{
-    padding: 2%;
-}
-
-.page-title {
+/* Global Page Layout */
+.page-container {
+    padding: 1% 2% 0 2%; /* top, right, bottom, left */
+  }
+  
+  /* Typography */
+  .page-title {
     font-size: 2.5rem;
     font-weight: 700;
-    color: #1a1a1a;
-    margin-bottom: 1rem;
     font-family: 'Segoe UI', Roboto, sans-serif;
+    color: #1a1a1a;
     line-height: 1.2;
-}
+    margin-bottom: 1rem;
+  }
+  
+  /* Links */
+  a {
+    text-decoration: none;
+  }
+  
+  /* Spacing Utilities */
+  .align-right {
+    display: flex;
+    justify-content: flex-end;
+  }
 
-.move-to-right {
-    text-align: right; /* Aligns text and inline elements to the right */
-}
+  .row-bottom{
+    margin-bottom: 2%;
+  }
 
-.icon-space {
-    margin-right: 8px; /* Adjust the spacing as needed */
-}
+  .card-bottom{
+    margin-bottom: 3%;
+  }
 
-.custom-table {
-    font-size: 0.9rem; /* Reduces font size (you can adjust this value: 0.8rem, 0.85rem, etc.) */
-    color: #000000;
-}
-
-.custom-table th,
-.custom-table td {
-  border: 1px solid #dee2e6; /* Border for header and cells */
-  padding: 0.5rem; /* Optional: adds some padding inside cells */
-}
-
-.color-danger{
+  .next-line {
+    padding-bottom: 1%;
+  }
+  
+  .move-to-right {
+    text-align: right;
+  }
+  
+  .icon-space,
+  .right-space {
+    margin-right: 8px;
+  }
+  
+  /* Table Styling */
+  .custom-table {
+    font-size: 0.9rem;
+    color: #333;
+    width: 100%;
+    border-collapse: collapse; /* Ensures no spacing between borders */
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08); /* Soft outer elevation */
+  }
+  
+  /* Header Styling */
+  .custom-table th {
+    background-color: #f4f4f4;
+    font-weight: 600;
+    text-align: left;
+    padding: 0.75rem 1rem;
+    border-bottom: 2px solid #dcdcdc;
+    box-shadow: inset 0 -1px 0 #ddd; /* Slight inner shadow for depth */
+  }
+  
+  /* Cell Styling */
+  .custom-table td {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid #eaeaea;
+    background-color: #fff;
+    transition: background 0.2s ease;
+  }
+  
+  /* Striped Rows: Even rows shaded slightly */
+  .custom-table tr:nth-child(even) td {
+    background-color: #f9f9f9;
+  }
+  
+  /* Hover effect for better interactivity */
+  .custom-table tr:hover td {
+    background-color: #f1f1f1;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.04);
+  }
+  
+  
+  .custom-table th,
+  .custom-table td {
+    border: 1px solid #dee2e6;
+    padding: 0.5rem;
+  }
+  
+  /* Status Colors */
+  .color-danger {
     color: #ff7373 !important;
-}
-
-.color-success{
+  }
+  
+  .color-success {
     color: #59bd7a !important;
-}
-
-.color-warning{
+  }
+  
+  .color-warning {
     color: #ffad33 !important;
-}
+  }
+  
+
+  .card-3d {
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle outer depth */
+    padding: 1.5rem;
+    border: 1px solid #e0e0e0;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+  
+  /* Optional: 3D effect on hover */
+  .card-3d:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+  }
+  

@@ -1,0 +1,5 @@
+[2025-03-31 08:41:12] ERROR: LDAP bind failed for user CN=jsmith...
+[2025-03-31 08:42:00] WARNING: SSO cache corrupted on node-12
+[2025-03-31 08:45:25] ERROR: Kerberos ticket request timeout
+[2025-03-31 08:46:14] INFO: Retry attempt #3 - failed
+[2025-03-31 08:47:33] ERROR: Domain controller unreachable: dc01.company.local
