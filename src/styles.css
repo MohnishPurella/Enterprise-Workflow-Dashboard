@@ -1,1 +1,63 @@
 /* You can add global styles to this file, and also import other style files */
+.page-templace {
+    padding: 1.5rem 2rem 0 2rem; /* top, right, bottom, left */
+}
+
+.page-title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: 0.5px;
+}
+
+.move-to-right {
+    text-align: right; /* Aligns text and inline elements to the right */
+}
+
+.icon-space {
+    margin-right: 8px; /* Adjust the spacing as needed */
+}
+
+.custom-table {
+    font-size: 0.9rem; /* Reduces font size (you can adjust this value: 0.8rem, 0.85rem, etc.) */
+    color: #000000;
+}
+
+/* Apply bottom border to header row */
+.custom-table .p-datatable-thead > tr,
+.custom-table .p-datatable-thead > tr > th {
+  border-bottom: 1px solid #dee2e6;
+}
+
+/* Apply bottom border to each body row */
+.custom-table .p-datatable-tbody > tr {
+  border-bottom: 1px solid #dee2e6;
+}
+
+.custom-table .p-datatable-thead > tr > th {
+    font-size: 1rem; /* Adjust size as needed */
+  }
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .page-templace {
+        padding: 1rem 0.75rem 0 1.25rem;
+    }
+
+    .page-title {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .page-templace {
+        padding: 0.75rem 0.5rem 0 1rem;
+    }
+    
+    .page-title {
+        font-size: 1.75rem;
+        padding-bottom: 0.25rem;
+        border-bottom-width: 1px;
+    }
+}
